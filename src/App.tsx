@@ -2,6 +2,19 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
+const responses = {
+  response1: "default",
+  response2: "default",
+  response3: "default",
+  response4: "default",
+  response5: "default",
+  response6: "default",
+  response7: "default",
+  response8: "default",
+  response9: "default",
+  response10: "default",
+};
+
 function App() {
   console.log(`Pour toutes les question Array, proposer une réponse la plus simple est lisible possible pour un developpeur ayant une bonne conaissance en JS. 
   Avant de répondre, annoncer votre méthode et si la méthode que vous compter utiliser va créer une nouvelle array et/ou modifier l'existante ainsi que ce que va return votre methode`);
