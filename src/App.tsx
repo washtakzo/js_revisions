@@ -6,7 +6,7 @@ function App() {
   console.log(`Pour toutes les question Array, proposer une réponse la plus simple est lisible possible pour un developpeur ayant une bonne conaissance en JS. 
   Avant de répondre, annoncer votre méthode et si la méthode que vous compter utiliser va créer une nouvelle array et/ou modifier l'existante ainsi que ce que va return votre methode`);
 
-  console.log("Question 1 :"); //unshift
+  console.log("Question 1 :");
   const array1 = ["fraise", "banane", "orange"];
   console.log(
     "Insérer une pomme au début de cette array (sans utiliser d'index) :" +
@@ -15,7 +15,7 @@ function App() {
   console.log("Réponse 1 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 2 :"); //push
+  console.log("Question 2 :");
   const array2 = ["fraise", "banane", "orange"];
   console.log(
     "Insérer une pomme à la fin de cette array (sans utiliser d'index) :" +
@@ -24,9 +24,8 @@ function App() {
   console.log("Réponse 2 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 3 :"); //splice
+  console.log("Question 3 :");
   const array3 = ["fraise", "banane", "orange"];
-  const r3 = array3.slice();
   console.log(
     "Insérer une pomme entre fraise et banane de cette array (en utilisant les index) :" +
       array3
@@ -34,7 +33,7 @@ function App() {
   console.log("Réponse 3 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 4 :"); //splice
+  console.log("Question 4 :");
   const array4 = ["fraise", "banane", "orange"];
   console.log(
     "Supprimer, en utilisant l'index, l'orange de cette array :" + array4
@@ -42,7 +41,7 @@ function App() {
   console.log("Réponse 4 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 5 :"); //splice
+  console.log("Question 5 :");
   const array5 = ["fraise", "banane", "orange"];
   console.log(
     "Suprimer, en utilisant l'index, la banane de cette array :" + array5
@@ -50,7 +49,7 @@ function App() {
   console.log("Réponse 5 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 6 :"); //splice
+  console.log("Question 6 :");
   const array6 = ["fraise", "banane", "orange"];
   console.log(
     "Suprimer, en utilisant l'index, la fraise de cette array :" + array6
@@ -58,7 +57,7 @@ function App() {
   console.log("Réponse 6 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 7 :"); //filter
+  console.log("Question 7 :");
   const array7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   console.log(
     "Faites une nouvelle array qui ne contient que les nombres multiple de 3 :" +
@@ -67,7 +66,7 @@ function App() {
   console.log("Réponse 7 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 8 :"); //map
+  console.log("Question 8 :");
   const array8 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   console.log(
     "Faites une nouvelle array qui pour les multiple de 3 remplace par Fizz et pour les nombre pair remplace par 'Buzz' :" +
@@ -77,7 +76,7 @@ function App() {
   console.log("Réponse 8 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 9 :"); //filter
+  console.log("Question 9 :");
   const array9 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   console.log(
     "On veut cette array mais en retirant tous les nombre pair :" + array9
@@ -85,7 +84,7 @@ function App() {
   console.log("Réponse 9 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 10 :"); //reduce
+  console.log("Question 10 :");
   const array10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   console.log(
     "Faite la somme de tous les nombre au carré présent dans l'array :" +
@@ -94,12 +93,12 @@ function App() {
   console.log("Réponse 10 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 11 :"); //fill
+  console.log("Question 11 :");
   console.log("Faite une array de 4 élément pleine de 0");
   console.log("Réponse 11 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 12 :"); //find
+  console.log("Question 12 :");
   const array12 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   console.log(
     "trouvez le premier nombre multiple de 7 mais qui ne soit pas 7 dans l'array :" +
@@ -108,7 +107,7 @@ function App() {
   console.log("Réponse 12 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 13 :"); //indexOf
+  console.log("Question 13 :");
   const array13 = [
     "fraise",
     "banane",
@@ -121,7 +120,7 @@ function App() {
   console.log("Réponse 13 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 14 :"); //lastIndexOf
+  console.log("Question 14 :");
   const array14 = [
     "fraise",
     "banane",
@@ -136,7 +135,7 @@ function App() {
   console.log("Réponse 14 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 15 :"); //findIndex
+  console.log("Question 15 :");
   const array15 = [
     "fraise",
     "banane",
@@ -156,7 +155,7 @@ function App() {
   console.log("Réponse 15 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 16 :"); //includes
+  console.log("Question 16 :");
   const array16 = [
     "fraise",
     "banane",
@@ -173,7 +172,7 @@ function App() {
   console.log("Réponse 16 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 17 :"); //pop
+  console.log("Question 17 :");
   const array17 = [
     "fraise",
     "banane",
@@ -190,7 +189,7 @@ function App() {
   console.log("Réponse 17 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 18 :"); //shift
+  console.log("Question 18 :");
   const array18 = [
     "fraise",
     "banane",
@@ -207,7 +206,7 @@ function App() {
   console.log("Réponse 18 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 19 :"); //slice
+  console.log("Question 19 :");
   const array19 = [
     "fraise",
     "banane",
@@ -227,7 +226,7 @@ function App() {
   console.log("Réponse 19 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 20 :"); //join
+  console.log("Question 20 :");
   const array20 = [
     "fraise",
     "banane",
@@ -247,7 +246,7 @@ function App() {
   console.log("Réponse 20 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 21 :"); //reverse
+  console.log("Question 21 :");
   const array21 = [
     "fraise",
     "banane",
@@ -264,7 +263,7 @@ function App() {
   console.log("Réponse 21 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 22 :"); //sort
+  console.log("Question 22 :");
   const array22 = [
     "fraise",
     "banane",
@@ -281,7 +280,7 @@ function App() {
   console.log("Réponse 22 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 23 :"); //some
+  console.log("Question 23 :");
   const array23 = [
     "fraise",
     "banane",
@@ -300,7 +299,7 @@ function App() {
   console.log("Réponse 23 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 24 :"); //every
+  console.log("Question 24 :");
   const array24 = [
     "fraise",
     "banane",
@@ -320,7 +319,7 @@ function App() {
   console.log("Réponse 24 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 25 :"); //Array.from
+  console.log("Question 25 :");
   const set25 = new Set([
     "fraise",
     "banane",
@@ -337,7 +336,7 @@ function App() {
   console.log("Réponse 25 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 26 :"); //Array.isArray
+  console.log("Question 26 :");
   const set26 = new Set([
     "fraise",
     "banane",
@@ -354,7 +353,7 @@ function App() {
   console.log("Réponse 26 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 27 :"); //at
+  console.log("Question 27 :");
   const array27 = [
     "fraise",
     "banane",
@@ -374,7 +373,7 @@ function App() {
   console.log("Réponse 27 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 28 :"); //copyWithin
+  console.log("Question 28 :");
   const array28 = [
     "fraise",
     "banane",
@@ -394,7 +393,7 @@ function App() {
   console.log("Réponse 28 :");
   console.log("---------------------------------------------------------");
 
-  console.log("Question 29 :"); //flat
+  console.log("Question 29 :");
   const array29 = [
     "fraise",
     "banane",
@@ -414,11 +413,6 @@ function App() {
   );
   console.log("Réponse 29 :");
   console.log("---------------------------------------------------------");
-
-  console.log(
-    `map // filter // reduce // fill //find //indexOf // lastIndexOf // findIndex // includes // pop // push // shift // unshift 
-    // splice // slice // join // reverse // sort // some // every // Array.from // Array.of // Array.isArray // at // copyWithin // flat // `
-  );
 
   return (
     <div className="App">
